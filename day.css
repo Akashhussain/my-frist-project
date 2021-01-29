@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#slider{
+	width: 100%;
+	height: 100px;
+	/*margin: 10px;*/
+	background-color: orange;
+}
+img{
+	width: 4%;
+	height: 50px;
+	margin-top: 12px;
+	margin-left: 10px;
+	border: 2px solid green;
+	border-radius: 100PX;
+}
+.heading h1{
+	width: 22%;
+	font-size: 40px;
+	height: 40px;
+	margin-top: -65px;
+	color: brown;
+	/*background-color: gray;*/
+}
+span{
+	color: green;
+	font-size: 40px;
+	animation-name: sp;
+	animation-direction: alternate;
+	animation-duration: 10s;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes sp{
+	30%{color: blue}
+	40%{color: green}
+	50%{color: yellow}
+}
+.log {
+	/*background-color: gray;*/
+	margin-top: -35px;
+	margin-left: 700px;
+
+}
+.log li{
+	display: inline;
+	/*background-color: gray;*/
+	font-size: 20px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+}
+.log li:hover{
+	background-color: gray;
+	font-size: 25px;
+}
+.login{
+	margin-right: 900px;
+}
+.login ul li{
+	display: inline;
+	color: white;
+	font-size: 10px;
+	padding: 10px;
+	margin: 12px;
+	background-color: blue;
+	border-radius: 20px
+}
+.slide{
+	width: 100%;
+	height: 500px; 
+	/*margin: 10px;*/
+	background-color: brown;
+	/*background-image: url(akash1.jpg);*/
+	/*background-repeat: no-repeat;*/
+}
+.slideri{
+	width: 40%;
+	height: 50px;
+	background-image: url(akash1.jpg);
+}
