@@ -62,7 +62,7 @@ span{
 .login ul li{
 	display: inline;
 	color: white;
-	font-size: 10px;
+	font-size: 10px;\
 	padding: 10px;
 	margin: 12px;
 	background-color: blue;
@@ -77,7 +77,13 @@ span{
 	/*background-repeat: no-repeat;*/
 }
 .slideri{
-	width: 40%;
-	height: 50px;
+	width: 25%;
+	height: 200px;
 	background-image: url(akash1.jpg);
+}
+.heading h1{
+	font-size: 20px;
+	width: 20%;
+	height: 10px;
+
 }
